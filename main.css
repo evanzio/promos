@@ -1,0 +1,29 @@
+body {
+  background-color: #ffffff;
+  color: #FF3366;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 80vw;
+  background-image: url('./promos.svg');
+  background-size: 100%;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+a { color: #FF3366; text-decoration: none;}
